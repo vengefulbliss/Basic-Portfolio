@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	  crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	  crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	  crossorigin="anonymous"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="assets/css/connect.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div id="wrapper-wrapper">
+		<div id="rotating-item-wrapper">
+
+			<!--scope is everything with the rotating images... if you get it wrong nothing will work correctly.-->
+			<img src="assets/images/githubmain.jpeg" alt="github image" class="rotating-item" style="display: none;">
+			<!--just adding this for a break between photos-->
+			<img src="assets/images/Gmailmain.jpg" alt="gmail image" class="rotating-item" style="display: none;">
+			<!--just adding this for a break between photos-->
+			<img src="assets/images/linkedinmain.jpg" alt="linkdin image" class="rotating-item" style="display: none;">
+			<!--just adding this for a break between photos-->
+
+		</div>
+
+
+
+		<div class="content" id="homecontain">
+				<a id="home" href="landing.html">Return Home
+					<input id="home" type="image" src="assets/images/home.png">
+				</a></div>
+
+
+		<div class="content" id="githubcontain">
+			<a id="github" href="https://github.com/vengefulbliss">See more content on Github
+				<input id="github" type="image" src="assets/images/github.png">
+			</a></div>
+
+		<div class="content" id="linkdincontain">
+			<a id="linkdin" href="https://www.linkedin.com/in/stephen-lee-811089148/">Visit my Linkdin page
+				<input id="linkdin" type="image" src="assets/images/linkedin.png">
+			</a>
+		</div>
+
+<div class="content" id="gmailcontain">
+			<a href="mailto:zapyaplee@gmail.com">Feel free to contact me on Gmail
+				<input id="gmail" type="image" src="assets/images/Gmail-Logo.png" value="Send eMail" onclick="window.location.href='zapyaplee@gmail.com'"
+				/>
+			</a>
+		</div>
+
+		
+		
+
+	</div>
+
+
+	<script type="text/javascript" src="assets/js/connect.js"></script>
+</body>
+
+</html>

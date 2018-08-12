@@ -1,0 +1,116 @@
+body,
+html {	
+	background-color: #333333;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+#rotating-item-wrapper {
+	position: relative;
+
+  min-height: 100%;
+}
+#wrapper-wrapper {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.rotating-item {
+  display: none;
+	position: absolute;
+	opacity: .5;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+#home {
+	height: 100%;
+  float: right;
+  margin-right: 15px;
+	margin-top: 2px;
+	z-index: +1;
+	position: relative;
+	font-size: 1.5vw;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+}
+#homecontain {
+	height: 200px;
+  width: 30%;
+  margin-top: 15px;
+  color: white;
+  background-color: #474747;
+  background: linear-gradient(to right, #000000 0%, #222222a2 50%, #7777776e 100%);
+}
+
+#githubcontain {
+  height: 200px;
+  width: 40%;
+  margin-top: 5%;
+  color: white;
+  background-color: #474747;
+  background: linear-gradient(to right, #000000 0%, #222222a2 50%, #7777776e 100%);
+	
+}
+
+
+
+#github {
+  height: 100%;
+  float: right;
+  margin-right: 15px;
+	margin-top: 2px;
+	z-index: +1;
+	position: relative;
+	font-size: 1.5vw;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+  
+}
+#linkdin {
+  height: 100%;
+  float: right;
+  margin-right: 15px;
+	margin-top: 2px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+}
+#linkdincontain {
+  height: 200px;
+  width: 60%;
+  margin-top: 5%;
+  color: white;
+  background-color: #474747;
+  background: linear-gradient(to right, #000000 0%, #222222a2 50%, #7777776e 100%);
+  font-size: 2vw;
+  z-index: +1;
+  position: relative;
+}
+
+#gmail {
+  height: 100%;
+  float: right;
+	margin-right: 15px;
+	margin-top: 2px;
+
+}
+#gmailcontain {
+  height: 200px;
+  width: 75%;
+  margin-top: 5%;
+  color: white;
+  background-color: #474747;
+	background: linear-gradient(to right, #000000 0%, #222222a2 50%, #7777776e 100%);
+	font-size: 2vw;
+	z-index: +1;
+  position: relative;
+  text-align: right;
+ line-height: 200px;
+}

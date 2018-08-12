@@ -1,0 +1,137 @@
+body, html {
+	height: 100%;
+	margin: 0;
+
+	color: #777;
+}
+
+p {
+	opacity: 1;
+	font-size: 18px;
+
+color: black;
+text-shadow: 1px 1px #474747;
+text-align: center;
+}
+.navbar {
+	font-size: 6vw;
+	padding-top: 100px;
+	width: 50%;
+	height: 70%;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	text-shadow: 1px 1px #474747;
+	
+}
+
+#stephen {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-left: 25px;
+
+
+}
+#navProjects {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-left: 25px;
+}
+#navContact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-left: 25px;
+ 
+}
+
+
+
+
+
+.bgimg-2, .bgimg-3, .bgimag-4 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.bgimg-1 {
+	background-image: url("../images/main.png");
+	min-height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#styleimg1 {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to bottom left, rgb(2, 0, 0, .01), rgb(2, 0, 0, .8));
+}
+
+.bgimg-2 {
+	background-image: url("../images/social-links.png");
+	min-height: 700px;
+}
+
+#connectFont {
+	border: 2px solid #000000;
+	margin-right: 30%;
+	margin-left: 30%;
+	background-color: rgb(128, 128, 128, .3)
+}
+
+.bgimg-3 {
+	background-image: url("../images/landing-projects.png");
+	min-height: 700px;
+}
+.bgimg-4 {
+	background-image: url("../images/aboutme.jpg");
+	opacity: .65;
+	min-height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px sans-serif;
+	color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+		.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+				background-attachment: scroll;
+		}
+}
