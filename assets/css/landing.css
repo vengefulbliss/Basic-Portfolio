@@ -120,6 +120,8 @@ text-align: center;
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
+	z-index: -1;
+	position: relative;
 }
 
 h3 {
@@ -134,4 +136,12 @@ h3 {
 		.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
 				background-attachment: scroll;
 		}
+}
+
+span.border p {
+	font-family: sans-serif;
+	color: black;
+	text-shadow: 1px 1px #474747;
+	position: absolute;
+	z-index: -1;
 }
