@@ -1,0 +1,234 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	color: #777;
+}
+
+.pic1 h2 {
+	position: absolute;
+	opacity: 1;
+	font-size: 3vw;
+	top: 40%;
+	left: 0;
+	width: 100%;
+	color: black;
+	text-shadow: 1px 1px white;
+	text-align: center;
+}
+
+.pic1 p {
+	position: absolute;
+	opacity: 1;
+	font-size: 20px;
+	top: 55%;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px #474747;
+	text-align: center;
+}
+
+h3 {
+	position: absolute;
+	opacity: 1;
+	font-size: 1.5vw;
+	bottom: 80%;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-shadow: 2px 1px #474747;
+	text-align: center;
+}
+
+
+
+#github1 {
+	height: 7vw;
+	width: 7vw;
+}
+.caption1 h3.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	z-index: -1;
+	position: relative;
+}
+.caption1 {
+	position: absolute;
+	left: 0;
+	bottom: 75%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption1 input.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	z-index: -1;
+	position: relative;
+}
+
+
+
+.caption h2.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	z-index: -1;
+	position: relative;
+}
+
+.navbar {
+	font-size: 6vw;
+	padding-top: 100px;
+	width: 50%;
+	height: 70%;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	text-shadow: 1px 1px #474747;
+}
+
+.stephen {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	margin-left: 25px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption input.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	z-index: -1;
+	position: relative;
+}
+
+.pic2,
+.pic3,
+.pic4 {
+	position: relative;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pic1 {
+	background-image: url("../../images/projectimages/runon/runon.png");
+	min-height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#stylepic1 {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to bottom left, rgb(2, 0, 0, .01), rgb(2, 0, 0, .8));
+}
+
+.pic2 {
+	background-image: url("../../images/projectimages/runon/");
+	min-height: 700px;
+}
+/*this area is mainly for the development images of the projects.*/
+
+
+
+.pic2 p {
+	position: absolute;
+	opacity: 1;
+	font-size: 3vw;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+.pic3 p {
+	position: absolute;
+	opacity: 1;
+	font-size: 3vw;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+
+
+
+
+
+.pic3 {
+	background-color: #474747;
+	background-image: url("../../images/projectimages/runon/collage.png");
+	min-height: 100%;
+}
+
+.pic4 {
+	background-image: url("../../images/projectimages/runon/runonconcept.jpg");
+	opacity: .65;
+	min-height: 100%;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#github {
+	height: 15vw;
+	width: 15vw;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+	.pic1,
+	.pic2,
+	.pic3,
+	.pic4 {
+		background-attachment: scroll;
+	}
+}
+
+.pic4 h2 {
+	position: absolute;
+	opacity: 1;
+	font-size: 3vw;
+	top: 60%;
+	left: 0;
+	width: 100%;
+	color: black;
+	text-shadow: 1px 1px white;
+	text-align: center;
+
+}
