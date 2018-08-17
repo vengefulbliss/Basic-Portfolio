@@ -7,10 +7,10 @@ body, html {
 
 p {
 	opacity: 1;
-	font-size: 18px;
+	font-size: 1vw;
 
 color: black;
-text-shadow: 1px 1px #474747;
+text-shadow: 1px 1px #fff;
 text-align: center;
 }
 .navbar {
@@ -98,7 +98,6 @@ text-align: center;
 }
 .bgimg-4 {
 	background-image: url("../images/aboutme.jpg");
-	opacity: .65;
 	min-height: 100%;
 	position: relative;
 	background-attachment: fixed;
@@ -111,19 +110,19 @@ text-align: center;
 .caption {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 40%;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: #474747;
 }
 
 .caption span.border {
-	background-color: #111;
+	background-color: #474747;
 	color: #fff;
+	bottom: 60%;
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
-	z-index: -1;
 	position: relative;
 }
 
@@ -144,7 +143,7 @@ h3 {
 span.border p {
 	font-family: sans-serif;
 	color: black;
-	text-shadow: 1px 1px #474747;
+	text-shadow: 2px 2px white;
 	position: absolute;
 	z-index: -1;
 }
