@@ -2,8 +2,8 @@ body, html {
 	height: 100%;
 	margin: 0;
 	background-color: #474747;
-
 	color: #777;
+	background: linear-gradient(to top, #333333 0%, #777777 50%, #333333 100%);
 }
 
 p {
