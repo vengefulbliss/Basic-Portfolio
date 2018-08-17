@@ -1,13 +1,14 @@
 body, html {
 	height: 100%;
 	margin: 0;
+	background-color: #474747;
 
 	color: #777;
 }
 
 p {
 	opacity: 1;
-	font-size: 1vw;
+	font-size: 2vw;
 
 color: white;
 text-shadow: 2px 2px black;
@@ -56,7 +57,7 @@ text-align: center;
 
 
 
-.bgimg-2, .bgimg-3, .bgimag-4 {
+.bgimg-2, .bgimg-3, .bgimag-4 .image2{
 	position: relative;
 	opacity: 0.65;
 	background-attachment: fixed;
@@ -68,6 +69,7 @@ text-align: center;
 .bgimg-1 {
 	background-image: url("../images/main.png");
 	min-height: 100%;
+	max-width: 100%;
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;
@@ -86,6 +88,7 @@ text-align: center;
 }
 
 #connectFont {
+	font-size: 5vw;
 	border: 2px solid #000000;
 	margin-right: 30%;
 	margin-left: 30%;
@@ -107,15 +110,32 @@ text-align: center;
 	
 }
 
+.image2{
+	display: none;
+}
+
+@media only screen and (max-width: 500px){ 
+	
+	.image2{
+		display: block;
+		background-size: cover;
+		position: absolute;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+
+
 
 .caption {
 	position: absolute;
 	left: 0;
-	top: 40%;
+	top: 60%;
 	width: 100%;
 	text-align: center;
 	color: #474747;
 }
+
 
 .caption span.border {
 	background-color: #474747;
@@ -126,6 +146,20 @@ text-align: center;
 	letter-spacing: 10px;
 	position: relative;
 }
+@media only screen and 
+(max-device-width: 500px) {
+	#bottom p {
+		font-size: 7vw;
+	
+	
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	
+	
+	}
+}
+
 
 h3 {
 	letter-spacing: 5px;
@@ -135,11 +169,14 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and 
+(max-device-width: 1024px) {
 		.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
 				background-attachment: scroll;
 		}
-}
+} */
+
+
 
 span.border p {
 	font-family: sans-serif;
