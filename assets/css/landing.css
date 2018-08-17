@@ -9,8 +9,8 @@ p {
 	opacity: 1;
 	font-size: 1vw;
 
-color: black;
-text-shadow: 1px 1px #fff;
+color: white;
+text-shadow: 2px 2px black;
 text-align: center;
 }
 .navbar {
@@ -98,12 +98,13 @@ text-align: center;
 }
 .bgimg-4 {
 	background-image: url("../images/aboutme.jpg");
+	background-size: auto;
 	min-height: 100%;
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
 
 
@@ -142,8 +143,8 @@ h3 {
 
 span.border p {
 	font-family: sans-serif;
-	color: black;
-	text-shadow: 2px 2px white;
+	color: white;
+	text-shadow: 2px 2px black;
 	position: absolute;
 	z-index: -1;
 }
