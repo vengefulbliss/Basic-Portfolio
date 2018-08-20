@@ -6,14 +6,7 @@ body, html {
 	background: linear-gradient(to top, #333333 0%, #777777 50%, #333333 100%);
 }
 
-p {
-	opacity: 1;
-	font-size: 3vw;
 
-color: white;
-text-shadow: 1px 1px black;
-text-align: center;
-}
 .navbar {
 	font-size: 6vw;
 	padding-top: 100px;
@@ -142,7 +135,10 @@ text-align: center;
 	}
 }
 
-
+#wordCanvas {
+	height: 100%;
+	width: 70%;
+}
 
 .caption {
 	position: absolute;
@@ -194,7 +190,23 @@ h3 {
 } */
 
 
+p {
+background-color: #474747;
+background: linear-gradient(to right, #33333388 0%, #47474788 100%);
+border-radius: 25px;
 
+
+
+
+	opacity: 1;
+	font-size: 3vw;
+color: white;
+text-shadow: 1px 1px black;
+text-align: center;
+margin-top: 10%;
+margin-right: 15%;
+margin-left: 15%;
+}
 span.border p {
 	font-family: sans-serif;
 	color: white;
