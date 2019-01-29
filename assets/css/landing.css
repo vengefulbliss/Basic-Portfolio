@@ -19,31 +19,38 @@ body, html {
 }
 
 #stephen {
+	color: white;
+	font-size: 45px;
 	margin-top: 50px;
 	margin-bottom: 20px;
 	display: inline-block;
 	width: 100%;
-	margin-left: 25px;
+	margin-left: 33%;
 
 
 }
 #navProjects {
+	color: white;
+	font-size: 45px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: inline-block;
 	width: 100%;
-	margin-left: 25px;
+	margin-left: 33%;
 }
 #navContact {
+	color: white;
+	font-size: 45px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: inline-block;
 	width: 100%;
-	margin-left: 25px;
+	margin-left: 33%;
  
 }
 #certificate {
 	height: 100px;
+	margin-left: 33%;
 }
 
 
